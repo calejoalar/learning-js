@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <h1>Registro de libros</h1>
+    <div id="formulario">
+        Nombre del libro:
+        <input id="txtNombre" type="text" placeholder="nombre" />
+        <br />
+        Nombre del Autor:
+        <input id="txtAutor" type="text" placeholder="autor" />
+        <br />
+        Fecha de publicación:
+        <input id="txtFechaPublicacion" type="date" />
+        <br />
+        <input id="btnRegistrar" type="button" value="Registrar" onclick="registrar()" />
+    </div>
+    <br/>
+    <div>
+        <table id="listado">
+            <tr id="cabecero">
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Autor</th>
+                <th>Fecha Publicación</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
